@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: SIQAPKTest26AugProject
+runtimes:
+- runtimeAlias: SIQATestBVTERT26Aug
+  assets:
+  - name: timeout180
+    type: workflow
+    uid: fl3940f6451b27468b990ec80b5c7a911b
+    stepId: a0
+    reference: SIQA_TimeoutTest:delayfor180Sec
